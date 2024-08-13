@@ -15,7 +15,7 @@ function imc () {
         if (valorIMC < 18.5){
             classificacao = 'abaixo do peso, você precisa em gorda cassete.';
         }else if (valorIMC < 25) {
-            classificacao = 'isso aí com peso ideal. Parabéns continue assim!!!';
+            classificacao = 'com peso ideal. Parabéns continue assim!!!';
         }else if (valorIMC < 30){
             classificacao = 'levemente acima do peso, precisa fazer uma dieta ou um exercício fisíco';
         }else if (valorIMC < 35){
