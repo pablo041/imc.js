@@ -13,17 +13,17 @@ function imc () {
         let classificacao = '';
 
         if (valorIMC < 18.5){
-            classificacao = 'abaixo do peso.';
+            classificacao = 'abaixo do peso, você precisa em gorda cassete.';
         }else if (valorIMC < 25) {
-            classificacao = 'com peso ideal. Parabéns!!!';
+            classificacao = 'isso aí com peso ideal. Parabéns continue assim!!!';
         }else if (valorIMC < 30){
-            classificacao = 'levemente acima do peso.';
+            classificacao = 'levemente acima do peso, precisa fazer uma dieta ou um exercício fisíco';
         }else if (valorIMC < 35){
-            classificacao = 'com obesidade grau I.';
+            classificacao = 'com obesidade grau I, está precisando de uma atividade fisíca e uma dieta';
         }else if (valorIMC < 40){
-            classificacao = 'com obesidade grau II';
+            classificacao = 'com obesidade grau II, está precisando de uma atividade fisíca e uma dieta';
         }else {
-            classificacao = 'com obesidade grau III. Cuidado!!';
+            classificacao = 'com obesidade grau III. Cuidado vamos fazer uma atvidade ou algo para esmagrecer e acredite no seu potencial nada é impossível!!';
         }
 
         resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
